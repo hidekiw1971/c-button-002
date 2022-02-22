@@ -1,0 +1,20 @@
+@use "global" as *;
+
+.btn {
+  display: inline-block;
+  background-color: #e25c00;
+  border: 2px solid transparent;
+  box-shadow: 3px 6px rgba(0, 0, 0, 0.16);
+  color: #fff;
+  font-size: 1.125rem;
+  text-align: center;
+  text-decoration: none;
+  transition: 0.25s;
+}
+
+.btn:focus,
+.btn:hover {
+  background-color: #fff;
+  border-color: currentColor;
+  color: #e25c00;
+}
